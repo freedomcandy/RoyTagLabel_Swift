@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2C350D1AE767F9008597E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C350C1AE767F9008597E4 /* CoreLocation.framework */; };
+		EECA81311AE5D9EF00C24D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA81301AE5D9EF00C24D43 /* AppDelegate.swift */; };
+		EECA81341AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECA81321AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodeld */; };
+		EECA81361AE5D9EF00C24D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA81351AE5D9EF00C24D43 /* ViewController.swift */; };
+		EECA81391AE5D9EF00C24D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECA81371AE5D9EF00C24D43 /* Main.storyboard */; };
+		EECA813B1AE5D9EF00C24D43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECA813A1AE5D9EF00C24D43 /* Images.xcassets */; };
+		EECA813E1AE5D9EF00C24D43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECA813C1AE5D9EF00C24D43 /* LaunchScreen.xib */; };
+		EECA814A1AE5D9EF00C24D43 /* RoySwiftToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA81491AE5D9EF00C24D43 /* RoySwiftToolsTests.swift */; };
+		EECA81541AE5DA1200C24D43 /* RoyTagLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA81531AE5DA1200C24D43 /* RoyTagLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECA81441AE5D9EF00C24D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECA81231AE5D9EF00C24D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECA812A1AE5D9EF00C24D43;
+			remoteInfo = RoySwiftTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2C350C1AE767F9008597E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EECA812B1AE5D9EF00C24D43 /* RoySwiftTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoySwiftTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECA812F1AE5D9EF00C24D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECA81301AE5D9EF00C24D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECA81331AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoySwiftTools.xcdatamodel; sourceTree = "<group>"; };
+		EECA81351AE5D9EF00C24D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EECA81381AE5D9EF00C24D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECA813A1AE5D9EF00C24D43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EECA813D1AE5D9EF00C24D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EECA81431AE5D9EF00C24D43 /* RoySwiftToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoySwiftToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECA81481AE5D9EF00C24D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECA81491AE5D9EF00C24D43 /* RoySwiftToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoySwiftToolsTests.swift; sourceTree = "<group>"; };
+		EECA81531AE5DA1200C24D43 /* RoyTagLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoyTagLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECA81281AE5D9EF00C24D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C350D1AE767F9008597E4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECA81401AE5D9EF00C24D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EECA81221AE5D9EF00C24D43 = {
+			isa = PBXGroup;
+			children = (
+				EE2C350C1AE767F9008597E4 /* CoreLocation.framework */,
+				EECA812D1AE5D9EF00C24D43 /* RoySwiftTools */,
+				EECA81461AE5D9EF00C24D43 /* RoySwiftToolsTests */,
+				EECA812C1AE5D9EF00C24D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECA812C1AE5D9EF00C24D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECA812B1AE5D9EF00C24D43 /* RoySwiftTools.app */,
+				EECA81431AE5D9EF00C24D43 /* RoySwiftToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECA812D1AE5D9EF00C24D43 /* RoySwiftTools */ = {
+			isa = PBXGroup;
+			children = (
+				EECA81301AE5D9EF00C24D43 /* AppDelegate.swift */,
+				EECA81351AE5D9EF00C24D43 /* ViewController.swift */,
+				EECA81371AE5D9EF00C24D43 /* Main.storyboard */,
+				EECA813A1AE5D9EF00C24D43 /* Images.xcassets */,
+				EECA813C1AE5D9EF00C24D43 /* LaunchScreen.xib */,
+				EECA81321AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodeld */,
+				EECA812E1AE5D9EF00C24D43 /* Supporting Files */,
+				EECA81531AE5DA1200C24D43 /* RoyTagLabel.swift */,
+			);
+			path = RoySwiftTools;
+			sourceTree = "<group>";
+		};
+		EECA812E1AE5D9EF00C24D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECA812F1AE5D9EF00C24D43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECA81461AE5D9EF00C24D43 /* RoySwiftToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECA81491AE5D9EF00C24D43 /* RoySwiftToolsTests.swift */,
+				EECA81471AE5D9EF00C24D43 /* Supporting Files */,
+			);
+			path = RoySwiftToolsTests;
+			sourceTree = "<group>";
+		};
+		EECA81471AE5D9EF00C24D43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECA81481AE5D9EF00C24D43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECA812A1AE5D9EF00C24D43 /* RoySwiftTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECA814D1AE5D9EF00C24D43 /* Build configuration list for PBXNativeTarget "RoySwiftTools" */;
+			buildPhases = (
+				EECA81271AE5D9EF00C24D43 /* Sources */,
+				EECA81281AE5D9EF00C24D43 /* Frameworks */,
+				EECA81291AE5D9EF00C24D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoySwiftTools;
+			productName = RoySwiftTools;
+			productReference = EECA812B1AE5D9EF00C24D43 /* RoySwiftTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECA81421AE5D9EF00C24D43 /* RoySwiftToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECA81501AE5D9EF00C24D43 /* Build configuration list for PBXNativeTarget "RoySwiftToolsTests" */;
+			buildPhases = (
+				EECA813F1AE5D9EF00C24D43 /* Sources */,
+				EECA81401AE5D9EF00C24D43 /* Frameworks */,
+				EECA81411AE5D9EF00C24D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECA81451AE5D9EF00C24D43 /* PBXTargetDependency */,
+			);
+			name = RoySwiftToolsTests;
+			productName = RoySwiftToolsTests;
+			productReference = EECA81431AE5D9EF00C24D43 /* RoySwiftToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECA81231AE5D9EF00C24D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = RoyGuo;
+				TargetAttributes = {
+					EECA812A1AE5D9EF00C24D43 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EECA81421AE5D9EF00C24D43 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EECA812A1AE5D9EF00C24D43;
+					};
+				};
+			};
+			buildConfigurationList = EECA81261AE5D9EF00C24D43 /* Build configuration list for PBXProject "RoySwiftTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECA81221AE5D9EF00C24D43;
+			productRefGroup = EECA812C1AE5D9EF00C24D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECA812A1AE5D9EF00C24D43 /* RoySwiftTools */,
+				EECA81421AE5D9EF00C24D43 /* RoySwiftToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECA81291AE5D9EF00C24D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECA81391AE5D9EF00C24D43 /* Main.storyboard in Resources */,
+				EECA813E1AE5D9EF00C24D43 /* LaunchScreen.xib in Resources */,
+				EECA813B1AE5D9EF00C24D43 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECA81411AE5D9EF00C24D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECA81271AE5D9EF00C24D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECA81361AE5D9EF00C24D43 /* ViewController.swift in Sources */,
+				EECA81341AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodeld in Sources */,
+				EECA81541AE5DA1200C24D43 /* RoyTagLabel.swift in Sources */,
+				EECA81311AE5D9EF00C24D43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECA813F1AE5D9EF00C24D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECA814A1AE5D9EF00C24D43 /* RoySwiftToolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECA81451AE5D9EF00C24D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECA812A1AE5D9EF00C24D43 /* RoySwiftTools */;
+			targetProxy = EECA81441AE5D9EF00C24D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECA81371AE5D9EF00C24D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECA81381AE5D9EF00C24D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECA813C1AE5D9EF00C24D43 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECA813D1AE5D9EF00C24D43 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECA814B1AE5D9EF00C24D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECA814C1AE5D9EF00C24D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECA814E1AE5D9EF00C24D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoySwiftTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EECA814F1AE5D9EF00C24D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoySwiftTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EECA81511AE5D9EF00C24D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoySwiftToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoySwiftTools.app/RoySwiftTools";
+			};
+			name = Debug;
+		};
+		EECA81521AE5D9EF00C24D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoySwiftToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoySwiftTools.app/RoySwiftTools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECA81261AE5D9EF00C24D43 /* Build configuration list for PBXProject "RoySwiftTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECA814B1AE5D9EF00C24D43 /* Debug */,
+				EECA814C1AE5D9EF00C24D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECA814D1AE5D9EF00C24D43 /* Build configuration list for PBXNativeTarget "RoySwiftTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECA814E1AE5D9EF00C24D43 /* Debug */,
+				EECA814F1AE5D9EF00C24D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECA81501AE5D9EF00C24D43 /* Build configuration list for PBXNativeTarget "RoySwiftToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECA81511AE5D9EF00C24D43 /* Debug */,
+				EECA81521AE5D9EF00C24D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EECA81321AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EECA81331AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodel */,
+			);
+			currentVersion = EECA81331AE5D9EF00C24D43 /* RoySwiftTools.xcdatamodel */;
+			path = RoySwiftTools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EECA81231AE5D9EF00C24D43 /* Project object */;
+}
